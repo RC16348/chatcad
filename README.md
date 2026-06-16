@@ -94,13 +94,17 @@ src/
     └── jscad.worker.ts # JSCAD WebWorker
 ```
 
-## 支持作者
+## ❤️ 支持作者
 
-如果这个项目对你有帮助，欢迎赞赏支持 ❤️
+如果这个项目对你有帮助，可以扫码赞赏支持，感谢每一份心意！
 
-| 微信赞赏 | 联系作者 |
-|---|---|
-| ![赞赏码](./build/sponsor.png) | 微信：**luoka328** |
+<div align="center">
+  <img src="./build/sponsor.png" width="200" alt="赞赏码" />
+  <br />
+  <b>微信：luoka328</b>
+  <br />
+  <sub>添加请备注 ChatCAD</sub>
+</div>
 
 ## 许可证
 

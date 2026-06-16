@@ -39,6 +39,10 @@
 ## 快速开始
 
 ```bash
+# 克隆项目
+git clone https://github.com/RC16348/chatcad.git
+cd chatcad
+
 # 安装依赖
 npm install
 
@@ -48,7 +52,7 @@ npm run dev
 # 构建生产版本
 npm run build
 
-# 打包分发（自动签名需证书）
+# 打包分发（需先安装 electron-builder，可选）
 npx electron-builder --win --x64
 ```
 

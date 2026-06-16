@@ -6,7 +6,7 @@
 
 ## 截图
 
-![ChatCAD 界面](./screenshot.png)
+![ChatCAD 界面](./build/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202026-06-16%20155218.png)
 
 ## 特性
 

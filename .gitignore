@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+out/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build artifacts
+build/ChatCAD.*
+build/*.crt
+build/*.key
+build/*.pfx
+build/*.pvk
+cache/
+
+# Logs
+pack-*.txt
+*.log
+
+# Reference projects (not part of this project)
+参考项目/
+
+# Environment
+.env
+.env.local

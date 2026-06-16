@@ -1,0 +1,67 @@
+{
+  "name": "chatcad",
+  "version": "1.0.0",
+  "description": "ChatCAD - 基于AI的参数化3D CAD建模工具",
+  "main": "./out/main/index.js",
+  "author": "ChatCAD",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "preview": "electron-vite preview",
+    "start": "electron-vite preview",
+    "pack": "electron-vite build && electron-builder --win"
+  },
+  "dependencies": {
+    "@jscad/modeling": "^2.12.1",
+    "@jscad/obj-serializer": "^2.1.16",
+    "@jscad/stl-serializer": "^2.1.17",
+    "axios": "^1.7.7",
+    "dxf-writer": "^1.18.4",
+    "three": "^0.160.0",
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@types/three": "^0.160.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "electron": "^33.0.2",
+    "electron-vite": "^2.3.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "monaco-editor": "^0.45.0",
+    "sharp": "^0.35.1",
+    "vite-plugin-monaco-editor": "^1.1.0"
+  },
+  "build": {
+    "appId": "com.chatcad.app",
+    "productName": "ChatCAD",
+    "directories": {
+      "output": "dist",
+      "buildResources": "build"
+    },
+    "files": [
+      "out/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": [
+        "nsis",
+        "portable",
+        "zip"
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "ChatCAD",
+      "artifactName": "ChatCAD-Setup-${version}.${ext}"
+    },
+    "portable": {
+      "artifactName": "ChatCAD-Portable-${version}.${ext}"
+    }
+  }
+}

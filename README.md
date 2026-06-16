@@ -90,6 +90,14 @@ src/
     └── jscad.worker.ts # JSCAD WebWorker
 ```
 
+## 支持作者
+
+如果这个项目对你有帮助，欢迎赞赏支持 ❤️
+
+| 微信赞赏 | 联系作者 |
+|---|---|
+| ![赞赏码](./build/sponsor.png) | 微信：**luoka328** |
+
 ## 许可证
 
 MIT
